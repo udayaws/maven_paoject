@@ -33,4 +33,21 @@
 	</plugins>
   </build> -->
   
+    <distributionManagement>
+    <repository>
+        <uniqueVersion>false</uniqueVersion>
+        <id>NexusRepo</id>
+        <name>Internal Releasesl</name>
+        <url>http://13.127.218.205:8081/nexus/content/repositories/releases/</url>
+        <layout>default</layout>
+    </repository>
+
+    <snapshotRepository>
+        <uniqueVersion>true</uniqueVersion>
+        <id>NexusRepo</id>
+        <name>Propellors Snapshots</name>
+        <url>http://13.127.218.205:8081/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  
 </project>
