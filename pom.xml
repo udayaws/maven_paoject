@@ -6,7 +6,7 @@
 
   <groupId>E-market</groupId>
   <artifactId>flipkart</artifactId>
-  <version>1.1</version>
+  <version>1.1.${BUILD_NUMBER}</version>
   <packaging>war</packaging>
 
   <name>flipkart Maven Webapp</name>
